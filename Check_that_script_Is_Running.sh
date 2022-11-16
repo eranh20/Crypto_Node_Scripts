@@ -2,6 +2,7 @@
 
 # Location of Script: /etc/init.d/
 # Add to Ubuntu startup (boot): sudo crontab -e ---> @reboot /etc/init.d/Script_Name.sh
+
 # Update the BOT{ID}:{Token}
 # Update script_name
 
