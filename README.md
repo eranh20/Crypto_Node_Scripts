@@ -15,7 +15,7 @@ I'm running 2 Scripts:
    and return to the start of the script.
 
 
-## 2. Check_that_script_Is_Running.sh  
+## 2. Check_script_is_running.sh  
    Will check that the first script is running & message me if it's not.
 
 ------------------------
