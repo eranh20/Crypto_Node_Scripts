@@ -13,7 +13,7 @@ do
 
     while [ 1 ]
     do
-        #PID=$(/bin/ps ax |/bin/grep script_name.sh |/bin/awk '{print $1}')
+        PID=$(/bin/ps ax |/bin/grep script_name.sh |/bin/awk '{print $1}')
         [ -n "$PID" ] && sleep 10m || break
     done
 
