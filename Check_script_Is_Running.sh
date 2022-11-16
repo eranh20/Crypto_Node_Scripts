@@ -4,7 +4,7 @@
 # Add to Ubuntu startup (boot): sudo crontab -e ---> @reboot /etc/init.d/Script_Name.sh
 
 # Update the BOT{ID}:{Token}
-# Update script_name
+# Update node_script_name
 
 
 sleep 10m 
@@ -14,7 +14,7 @@ do
 
     while [ 1 ]
     do
-        PID=$(/bin/ps ax |/bin/grep script_name.sh |/bin/awk '{print $1}')
+        PID=$(/bin/ps ax |/bin/grep node_script_name.sh |/bin/awk '{print $1}')
         [ -n "$PID" ] && sleep 10m || break
     done
 
