@@ -7,7 +7,7 @@ I had to create TG BOT with BotFather ( https://t.me/BotFather ) first.
 Remember to update the BOT_ID & BOT_TOKEN in the scripts, also update the Crypto Node File Name and Location.
 
 
-I'm running 2 Scripts:
+## I'm running 2 Scripts:
 
 1. Status_Check.sh - Will check the status of the Node and if it other then 'active', it will send me meassages every 2 minutes for 3 times.
    After that it will sleep for 3 hours and will start over again. If in this 3 hours the status will change to 'active' it will send me TG message
