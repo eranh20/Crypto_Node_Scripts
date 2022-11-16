@@ -9,13 +9,13 @@ Remember to update the BOT_ID & BOT_TOKEN in the scripts, also update the Crypto
 
 I'm running 2 Scripts:
 
-## 1. Status_Check.sh - 
+## 1. Status_Check.sh  
    Will check the status of the Node and if it other then 'active', it will send me meassages every 2 minutes for 3 times.
    After that it will sleep for 3 hours and will start over again. If in this 3 hours the status will change to 'active' it will send me TG message
    and return to the start of the script.
 
 
-## 2. Check_that_script_Is_Running.sh - 
+## 2. Check_that_script_Is_Running.sh  
    Will check that the first script is running & message me if it's not.
 
 ------------------------
@@ -23,7 +23,7 @@ I'm running 2 Scripts:
 
 Last thing - update crontab so the scripts will run on reboot.
 
-probably there are "pretty" ways to write that, but this what I managed to come with the time I had.
+probably there are "pretty" ways to write that, but this is what I managed to come with the time I had.
 
 
-Open License TO All.
+Feel Free To Use/Modify and so on...
