@@ -18,7 +18,7 @@ while true
 do
 
        
-        node_stat=$(node_file status | grep MN | cut -d " " -f 3 | sed 's/,//')
+        node_stat=$(node_file status | grep NodeStartLine | cut -d " " -f 3 | sed 's/,//')
         
 
         if [[ $node_stat != "active" ]]
